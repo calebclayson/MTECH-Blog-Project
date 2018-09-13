@@ -1,0 +1,15 @@
+{
+  "name": "blogproject",
+  "version": "1.0.0",
+  "description": "a blog project for MTECH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "Caleb Clayson and Jordan Frary",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
