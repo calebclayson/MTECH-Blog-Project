@@ -33,3 +33,25 @@ nav {
     position: relative;
     z-index: 1;
     text-align: center; }
+
+@media only screen and (max-width: 700px) {
+  .text {
+    flex-direction: column; }
+  .story-container img {
+    display: none; } }
+
+.story-container {
+  display: flex; }
+  .story-container img {
+    height: 95vh;
+    width: 25%; }
+  .story-container .content {
+    display: flex;
+    flex-direction: column;
+    padding: 3em; }
+    .story-container .content h1 {
+      text-align: center; }
+    .story-container .content .text {
+      display: flex; }
+      .story-container .content .text div {
+        padding: 1em; }
