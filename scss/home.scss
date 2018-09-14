@@ -1,0 +1,26 @@
+.hero {
+    background-size: cover;
+    background-image: url(https://static.tumblr.com/0e49586c6e3e361aa82a74b2c267ebd4/doxgwpv/6WDn27cki/tumblr_static_profilephoto1.jpg);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        width: 103%;
+        height: 103%;
+        background: inherit;
+        position: absolute;
+        top: 0;
+        left: -10px;
+        filter: blur(10px);
+
+    }
+
+    &__text {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+}

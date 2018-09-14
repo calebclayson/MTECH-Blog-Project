@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    background-color: $accent-one;
+
+    div {
+        padding: 1em;
+
+        &:hover {
+            background-color: $accent-two;
+        }
+
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}

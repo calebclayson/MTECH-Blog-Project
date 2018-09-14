@@ -11,6 +11,6 @@ body {
     padding: 0;
 }
 
-nav {
-    display: flex;
-}
+@import 'nav';
+@import 'home';
+@import 'story';
