@@ -1,3 +1,6 @@
+* {
+  font-family: "Mukta", sans-serif; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -13,13 +16,19 @@ nav {
       color: #fff;
       text-decoration: none; }
 
+.content {
+  padding: 1em 3em; }
+
 .hero {
   background-size: cover;
   background-image: url(https://static.tumblr.com/0e49586c6e3e361aa82a74b2c267ebd4/doxgwpv/6WDn27cki/tumblr_static_profilephoto1.jpg);
   position: relative;
   width: 100%;
-  height: 100%;
-  overflow: hidden; }
+  height: 20vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .hero:after {
     content: '';
     width: 103%;
@@ -32,7 +41,30 @@ nav {
   .hero__text {
     position: relative;
     z-index: 1;
-    text-align: center; }
+    font-size: 2em; }
+
+.footer {
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  text-align: center; }
+  .footer p {
+    margin-bottom: -1em; }
+  .footer img {
+    width: 100%;
+    height: 80px; }
+
+@media only screen and (min-width: 400px) {
+  .footer img {
+    width: 400px;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 700px) {
+  .hero__text {
+    font-size: 1em; } }
 
 @media only screen and (max-width: 700px) {
   .text {
@@ -50,8 +82,10 @@ nav {
     flex-direction: column;
     padding: 3em; }
     .story-container .content h1 {
-      text-align: center; }
+      text-align: center;
+      margin: 0; }
     .story-container .content .text {
       display: flex; }
       .story-container .content .text div {
-        padding: 1em; }
+        padding: 1em;
+        font-size: .9em; }

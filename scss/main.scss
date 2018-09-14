@@ -5,6 +5,11 @@ $accent-two: #0184E8;
 $accent-three: #01AFFF;
 $accent-four: #00BAE8;
 $accent-five: #98F6FF;
+$font-fam: 'Mukta', sans-serif;
+
+* {
+    font-family: $font-fam;
+}
 
 body {
     margin: 0;

@@ -14,8 +14,10 @@
     flex-direction: column;
     padding: 3em; }
     .story-container .content h1 {
-      text-align: center; }
+      text-align: center;
+      margin: 0; }
     .story-container .content .text {
       display: flex; }
       .story-container .content .text div {
-        padding: 1em; }
+        padding: 1em;
+        font-size: .9em; }
