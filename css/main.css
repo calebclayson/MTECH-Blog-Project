@@ -45,7 +45,6 @@ nav {
 
 .footer {
   width: 100%;
-  position: absolute;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
